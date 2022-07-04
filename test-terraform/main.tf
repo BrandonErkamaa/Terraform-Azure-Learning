@@ -1,4 +1,5 @@
 #configure the Azure provider
+#add backend for storing tfstate
 terraform {
   backend "azurerm" {
     resource_group_name  = "tf-github-rg"
